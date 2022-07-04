@@ -1,18 +1,15 @@
-import MainContent from "./components/MainContent";
+import Header from "./components/Header/Header";
+import Main from "./components/Main/Main";
+
 
 function App() {
   return (
     <div className="App">
-      <MainContent/>
-      <ul>
-        <li>List element 1 </li>
-        <li>List element 2 </li>
-      </ul>
-      
+      <Header />
+      <Main/>
+
     </div>
-    
   );
 }
-
 
 export default App;
